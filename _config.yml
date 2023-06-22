@@ -1,0 +1,37 @@
+title: Bradmanfordson's Blog
+description: > # this means to ignore newlines until "baseurl:"
+  Follower of Yeshua &#x7C; Offensive Security Aficionado &#x7C; 
+  Puppy Herder &#x7C; Critter Catcher &#x7C; Bourbon Sipper &#x7C; Cigar Smoker
+
+permalink: ':title/'
+baseurl: "/home" # the subpath of your site, e.g. /blog
+url: "bradmanfordson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Brad Roberts # add your name
+author-img: brad_roberts.jpg # add your photo
+about-author: Follower of Yeshua &#x7C; Offensive Security Aficionado &#x7C; Puppy Herder &#x7C; Critter Catcher &#x7C; Bourbon Sipper &#x7C; Cigar Smoker # add description
+# social-twitter: # add your Twitter handle
+# social-facebook: # add your Facebook handle
+social-github: bradmanfordson # add your Github handle
+social-linkedin: bradley-roberts # add your Linkedin handle
+# social-email: # add your Email address
+
+# # Disqus
+# discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 15
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
