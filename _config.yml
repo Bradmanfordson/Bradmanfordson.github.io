@@ -4,7 +4,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Puppy Herder &#x7C; Critter Catcher &#x7C; Bourbon Sipper &#x7C; Cigar Smoker
 
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/" # for github pushing
+# baseurl: "/home" # for local testing
 url: "bradmanfordson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
