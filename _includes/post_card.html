@@ -1,0 +1,12 @@
+<a class="post-card-link" href="{{ post.url | relative_url }}">
+  <div class="post-card">
+    <div class="post-image">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    </div>
+    <div class="post-details">
+      <h2 class="post-title">{{ post.title }}</h2>
+      <p class="post-description">{{ post.description }}</p>
+    </div>
+  </div>
+</a>
+<hr class="post-separator">

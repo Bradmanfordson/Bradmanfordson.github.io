@@ -1,1 +1,5 @@
-theme: hacker
+theme: jekyll-theme-hacker
+title: Bradmanfordson's Blog
+description: "Christian &#x7C; Offensive Security Aficionado &#x7C; Puppy Herder &#x7C; Critter Catcher &#x7C; Bourbon Sipper &#x7C; Cigar Smoker"
+url: "https://bradmanfordson.github.io"
+baseurl: ""
