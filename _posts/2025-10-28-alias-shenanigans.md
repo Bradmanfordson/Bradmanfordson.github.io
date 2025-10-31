@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Alias Shenanigans (WIP)"
-date:   2025-10-28 10:00:00 -0500
+date:   2025-10-28
 image: /assets/images/alias.png
-description: "Using PowerShell Aliases for fun and for profit."
+tags: Research, Red Teaming, PowerShell
 ---
+Using PowerShell Aliases for fun and for profit.
 
+---
 While working on the GRTP I saw that the ordering of PowerShell's search is:
 1. Alias
 2. Function
