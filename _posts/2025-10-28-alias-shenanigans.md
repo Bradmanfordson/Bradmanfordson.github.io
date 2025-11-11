@@ -57,7 +57,7 @@ Set-Alias -Name Write-Host -Value calc.exe
 The calculator will run when `greet.ps1` is ran instead of outputting "Hello, World!"
 
 
-## Forth Observation
+## Fourth Observation
 Functions are evaluated higher than cmdlets too. So instead of just opening up the calculator, we can incorporate a lot of functionality.
 For example, take the following PowerShell function which overwrites the `Write-Host` cmdlet to open the calculator and then utilize the fully qualified module name to call the real `Write-Host`.
 ``` powershell
